@@ -1,4 +1,4 @@
-package de.testroid.xposed.lenovomultiwinmod.replacer;
+package de.testroid.xposed.lenovomultiwinmod;
 
 import android.R;
 import android.content.res.XModuleResources;
