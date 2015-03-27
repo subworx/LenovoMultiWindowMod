@@ -1,5 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">Lenovo MultiWindow Mod</string>
-
+    <string name="apppicker_name">MultiWindow Mod App Picker</string>
+    <string name="about_title"></string>
+    <string name="about_desc">Thanks and credits to Javatechig.com for the App List base, Android code samples for Checkable Linear Layout, Rovo89 for handling SharedPreferences.</string>
+    <string name="action_about">About</string>
+    <string name="btnText">Save</string>
+    <string name="appIconDesc">appIcon</string>
+    <string name="checkmarkText">checkmark</string>
+    <string name="emptyField">empty</string>
 </resources>

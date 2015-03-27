@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.testroid.xposed.lenovomultiwinmod"
-    android:versionCode="1"
-    android:versionName="0.1" >
+    android:versionCode="3"
+    android:versionName="0.5.1" >
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="19" />
+        android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true"
@@ -21,6 +21,11 @@
         <meta-data
             android:name="xposedminversion"
             android:value="54" />
+        <activity android:label="@string/apppicker_name" android:name="de.testroid.xposed.lenovomultiwinmod.AllAppsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
-
 </manifest>
